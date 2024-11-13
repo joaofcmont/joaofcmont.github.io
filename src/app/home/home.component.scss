@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    font-family: "myFirstFont", sans-serif;
+    align-items: center;
+}
+
+
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("/fonts/variable/JetBrainsMono[wght].ttf") format("truetype");
+}
+
+p{
+    font-family: "myFirstFont", sans-serif;
+    color: beige;
+}
+
+.img{
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1200px;  
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.description{
+    color: beige;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "myFirstFont", sans-serif;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.title{
+    color: beige; 
+}
+.title:hover {
+    color: rgb(139, 186, 139);
+}
+
+header{
+   padding: 40px;
+}
+
+nav {
+    padding: 1rem 0;
+    font-family: "myFirstFont", sans-serif;
+    width: 100%; 
+}
+
+
+nav a {
+    margin-right: 10px;
+    color: beige;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.title {
+    color: rgb(139, 186, 139);
+}
+@font-face {
+    font-family: "myFirstFont";
+    src: url("/fonts/variable/JetBrainsMono[wght].ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "myFirstFont", sans-serif;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+body{
+    color: beige;
+    font-family: "myFirstFont", sans-serif;
+
+}
+
